@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>No Kids Books - non-fiction</title>
+    <meta name="description" content="A resource for readers who are childless-not-by-choice or childfree.">
+    <meta property="og:title" content="No Kids Books">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nokidsbooks.com">
+    <meta property="og:image" content="https://nokidsbooks.com/static/images/reader.jpg">
+    <meta property="og:image:alt" content="A black woman with curly hair holds a book in one hand and pats her dog with the other.">
+    <meta property="og:description" content="A resource for readers who are childless-not-by-choice or childfree.">
+    <meta property="og:site_name" content="No Kids Books">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@keira_reckons">
+    <meta name="twitter:image:alt" content="A black woman with curly hair holds a book in one hand and pats her dog with the other.">
+
+    <link rel="stylesheet" href="static/css/app.css"/>
+    <link href="static/css/datatables.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Caprasimo' rel='stylesheet'>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/datatables.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
+      <div class="container-fluid">
+        <p>
+          <a href="index.html">Home</a>
+          > &nbsp;
+          <a href="book_lists.html">Book Lists</a>
+          > &nbsp;
+          <a>Other Non-Fiction</a>
+        </p>
+      </div>
+    </nav>
+
+
+    <div class="bg-light-beige py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-near-black display-3 text-center mb-2" style="font-family: 'Caprasimo';">Non-fiction</h1>
+          <div class="col-xl-8 offset-xl-2 col">
+            <p class="lead text-center mb-5">
+              Histories, discussions, and general non fiction works featuring people
+              without children.
+            </p>
+            <p class="text-center mb-5 text-near-black">
+              * We've tried to add triggers where they're known, but we will have
+              missed many. All titles about childlessness come with a general trigger warning
+              for childlessness, infertility, pregnancy loss and associated issues.
+            </p>
+          </div>
+        </div>
+
+        <table id="bookTable" class="display table table-striped mt-3">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Notes</th>
+              <th>Triggers</th>
+              <th>ISBN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td>Childlessness in the Age of Communication: Deconstructing Silence</td>
+              <td>Cristina Archetti</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>9781000033380</td>
+            </tr>
+            <tr>
+              <td>How is a Man Supposed to be a Man? Male Childlessness -- a Life Course Disrupted</td>
+              <td>Robin A. Hadley</td>
+              <td></td>
+              <td>Childless men</td>
+              <td></td>
+              <td>9781800731875</td>
+            </tr>
+            <tr>
+              <td>These Precious Days</td>
+              <td>Ann Pratchett</td>
+              <td>Essays</td>
+              <td></td>
+              <td></td>
+              <td>9780063092785</td>
+            </tr>
+            <tr>
+              <td>Regretting Motherhood</td>
+              <td>Orna Donath</td>
+              <td>Sociology, Psychology, Feminism</td>
+              <td></td>
+              <td>parenthood</td>
+              <td>9781623171377</td>
+            </tr>
+            <tr>
+              <td>Selfish, Shallow, and Self-Absorbed: Sixteen Writers on The Decision Not To Have Kids</td>
+              <td>Megan Daum</td>
+              <td>Sociology, Feminism</td>
+              <td></td>
+              <td></td>
+              <td>9781250052933</td>
+            </tr>
+            <tr>
+              <td>Childfree by Choice: The Movement Redefining Family and Creating a New Age of Independence</td>
+              <td>Amy Blackstone</td>
+              <td>Sociology</td>
+              <td>Childfree by choice</td>
+              <td></td>
+              <td>9781524744090</td>
+            </tr>
+            <tr>
+              <td>Belonging: remembering ourselves home</td>
+              <td>Toko-pa Turner</td>
+              <td>Philosophy, Spirituality</td>
+              <td></td>
+              <td></td>
+              <td>9781775111207</td>
+            </tr>
+            <tr>
+              <td>Otherhood: modern women Finding a new kind of happiness</td>
+              <td>Melanie Notkin</td>
+              <td>Feminism, Sociology, Philosophy</td>
+              <td></td>
+              <td></td>
+              <td>9781580055215</td>
+            </tr>
+            <tr>
+              <td>The Warmth of Other Suns: The Epic Story of America's Great Migration</td>
+              <td>Isabel Wilkerson</td>
+              <td>American History, Race</td>
+              <td></td>
+              <td></td>
+              <td>978067944432</td>
+            </tr>
+            <tr>
+              <td>The Girls of Atomic City: The Untold Story of the Women Who Helped Win World War II</td>
+              <td>Denise Kiernan</td>
+              <td>History, World War II</td>
+              <td></td>
+              <td></td>
+              <td>9781451617528</td>
+            </tr>
+            <tr>
+              <td>Dear You: A Letter to my Unborn Children</td>
+              <td>Tessa Broad</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>9781910453407</td>
+            </tr>
+            <tr>
+              <td>Without Children: The Long History of Not Being a Mother</td>
+              <td>Peggy O'Donnell Heffington</td>
+              <td>History, Feminism, Sociology</td>
+              <td></td>
+              <td></td>
+              <td>9781541675575</td>
+            </tr>
+            <tr>
+              <td>The Baby Boon: How family-friendly america cheats the childless</td>
+              <td>Elinor Burkett</td>
+              <td>Politics</td>
+              <td></td>
+              <td></td>
+              <td>9780743242646</td>
+            </tr>
+            <tr>
+              <td>Nobody's Mother: Life Without Kids</td>
+              <td>Lynne Van Luven</td>
+              <td>Feminism, Essays</td>
+              <td></td>
+              <td></td>
+              <td>9781894898409</td>
+            </tr>
+            <tr>
+              <td>The Seed: Infertility is a Feminist Issue</td>
+              <td>Alexandra Kimball</td>
+              <td>Feminism, Sociology</td>
+              <td></td>
+              <td></td>
+              <td>9781552453858</td>
+            </tr>
+            <tr>
+              <td>Mrs Pankhurst's Purple Feather: A Scandalous History of Birds, Hats and Votes</td>
+              <td>Tessa Boase</td>
+              <td>History</td>
+              <td></td>
+              <td></td>
+              <td>9781781316542</td>
+            </tr>
+            <tr>
+              <td>Women Without Kids: The Revolutionary Rise of an Unsung Sisterhood</td>
+              <td>Ruby Warrington</td>
+              <td>Feminism, Sociology</td>
+              <td></td>
+              <td></td>
+              <td>9781683649274</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="bg-near-black text-white py-5">
+        <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Book Lists</h5>
+            <p>
+              <a href="top10.html" class="text-white">
+                Top 10
+              </a>
+            </p>
+            <p>
+              <a href="self_help.html" class="text-white">
+                Self Help
+              </a>
+            </p>
+            <p>
+              <a href="biography.html" class="text-white">
+                Biography and Memoir
+              </a>
+            </p>
+            <p>
+              <a href="fiction.html" class="text-white">
+                Fiction
+              </a>
+            </p>
+            <p>
+              <a href="fiction_series.html" class="text-white">
+                Fiction Series
+              </a>
+            </p>
+            <p>
+              <a href="non_fiction.html" class="text-white">
+                Other Non-fiction
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Get Involved</h5>
+            <p>
+              <a href="suggest_a_book.html" class="text-white">
+                Contribute to book lists
+              </a>
+            </p>
+            <p>
+              <a href="ask_your_library.html" class="text-white">
+                Ask your library to buy a book
+              </a>
+            </p>
+            <p>
+              <a href="libraries_in_wcw.html" class="text-white">
+                Ask your library to celebrate World Childless Week
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">About</h5>
+            <p>
+              <a href="index.html#faqs" class="text-white">
+                FAQs
+              </a>
+            </p>
+            <p>
+              <a href="for_librarians.html" class="text-white">
+                Information for librarians
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Contact</h5>
+            <p>
+              I'd love to hear from you! So please,
+              <a href="mailto:keira@nokidsbooks.com" class="text-white">
+                send me an email.
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row border-top mt-4">
+          <p>© 2023 Keira Paterson</p>
+        </div>
+      </div>
+
+    </footer>
+
+    <script>
+      $(document).ready(function() {
+        $('#bookTable').DataTable({
+          "order": [[ 0, 'asc' ]],
+          "scrollX": true,
+          lengthMenu: [
+            [20, 50, -1],
+            [20, 50, 'All']
+          ],
+        });
+      });
+    </script>
+  </body>

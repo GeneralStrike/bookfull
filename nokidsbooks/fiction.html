@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>No Kids Books - fiction</title>
+    <meta name="description" content="A resource for readers who are childless-not-by-choice or childfree.">
+    <meta property="og:title" content="No Kids Books">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nokidsbooks.com">
+    <meta property="og:image" content="https://nokidsbooks.com/static/images/reader.jpg">
+    <meta property="og:image:alt" content="A black woman with curly hair holds a book in one hand and pats her dog with the other.">
+    <meta property="og:description" content="A resource for readers who are childless-not-by-choice or childfree.">
+    <meta property="og:site_name" content="No Kids Books">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@keira_reckons">
+    <meta name="twitter:image:alt" content="A black woman with curly hair holds a book in one hand and pats her dog with the other.">
+
+    <link rel="stylesheet" href="static/css/app.css"/>
+    <link href="static/css/datatables.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Caprasimo' rel='stylesheet'>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/datatables.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pb-0">
+      <div class="container-fluid">
+        <p>
+          <a href="index.html">Home</a>
+          > &nbsp;
+          <a href="book_lists.html">Book Lists</a>
+          > &nbsp;
+          <a>Fiction</a>
+        </p>
+      </div>
+    </nav>
+
+    <div class="bg-light-beige py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-near-black display-3 text-center mb-2" style="font-family: 'Caprasimo';">Fiction</h1>
+          <div class="col-xl-8 offset-xl-2 col">
+            <p class="lead text-center mb-5">
+              Fiction of all kinds, either featuring childless or childfree protagonists,
+              or just without major themes of parenthood and pregnancy.
+            </p>
+            <p class="text-center mb-5 text-near-black">
+              * We've tried to add triggers where they're known, but we will have
+              missed many. Get in touch if you have some to add.
+            </p>
+          </div>
+        </div>
+
+    <table id="bookTable" class="display table table-striped mt-3">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Notes</th>
+          <th>Triggers*</th>
+          <th>ISBN</th>
+        </tr>
+      </thead>
+      <tbody>
+          <!-- <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr> -->
+          <tr>
+            <td>The Hollow Sea</td>
+            <td>Annie Kirby</td>
+            <td>Magical Realism, Contemporary</td>
+            <td></td>
+            <td>Death</td>
+            <td>9780241522103</td>
+          </tr>
+          <tr>
+            <td>A Cold Day for Murder</td>
+            <td>Dana Stabenow</td>
+            <td>Crime, Mystery</td>
+            <td></td>
+            <td></td>
+            <td>9781804549551</td>
+          </tr>
+          <tr>
+            <td>A man called Ove</td>
+            <td>Fredrik Backman</td>
+            <td>Contemporary, Humour</td>
+            <td></td>
+            <td></td>
+            <td>9781476738017</td>
+          </tr>
+          <tr>
+            <td>After Leaving Mr Mackenzie</td>
+            <td>Jean Rhys</td>
+            <td>Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780393357813</td>
+          </tr>
+          <tr>
+            <td>All Your Perfects</td>
+            <td>Colleen Hoover</td>
+            <td>Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781501193323</td>
+          </tr>
+          <tr>
+            <td>Ancillary Justice</td>
+            <td>Ann Leckie</td>
+            <td>Science Fiction, Queer</td>
+            <td>#1 in a trilogy</td>
+            <td></td>
+            <td>9780316246620</td>
+          </tr>
+          <tr>
+            <td>Ancillary Mercy</td>
+            <td>Ann Leckie</td>
+            <td>Science Fiction, Queer</td>
+            <td>#3 in a trilogy</td>
+            <td></td>
+            <td>9780356502427</td>
+          </tr>
+          <tr>
+            <td>Ancillary Sword</td>
+            <td>Ann Leckie</td>
+            <td>Science Fiction, Queer</td>
+            <td>#2 in a trilogy</td>
+            <td></td>
+            <td>9780316246651</td>
+          </tr>
+          <tr>
+            <td>Artemis</td>
+            <td>Andy Weir</td>
+            <td>Science Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780553448122</td>
+          </tr>
+          <tr>
+            <td>City of Girls</td>
+            <td>Elizabeth Gilbert</td>
+            <td>Historical Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781594634741</td>
+          </tr>
+          <tr>
+            <td>Confessions of a Forty-Something F**k Up</td>
+            <td>Alexandra Potter</td>
+            <td>Contemporary, Romance, Humour</td>
+            <td></td>
+            <td></td>
+            <td>9780063340893</td>
+          </tr>
+          <tr>
+            <td>Convenience Store Woman</td>
+            <td>Sayaka Murata</td>
+            <td>Contemporary, Japanese Literature</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Crudo</td>
+            <td>Olivia Laing</td>
+            <td>Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780393357417</td>
+          </tr>
+          <tr>
+            <td>Daisy Jones and the Six</td>
+            <td>Taylor Jenkins Reid</td>
+            <td>Historical Fiction, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781524798642</td>
+          </tr>
+          <tr>
+            <td>Drive Your Plow Over the Bones of the Dead</td>
+            <td>Olga Tokarczuk</td>
+            <td>Mystery, Crime, Polish Fiction</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Evvie Drake Starts Over</td>
+            <td>Linda Holmes</td>
+            <td>Contemporary, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9780525619246</td>
+          </tr>
+          <tr>
+            <td>Excellent Women</td>
+            <td>Barbara Pym</td>
+            <td>Historical Fiction, Humour</td>
+            <td></td>
+            <td></td>
+            <td>9780143104872</td>
+          </tr>
+          <tr>
+            <td>Flying Solo</td><td>Linda Holmes</td>
+            <td>Mystery, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9780525619277</td>
+          </tr>
+          <tr>
+            <td>Ghosts</td>
+            <td>Dolly Alderton</td>
+            <td>Contemporary Romance</td>
+            <td></td>
+            <td></td>
+            <td>9780241434543</td>
+          </tr>
+          <tr>
+            <td>Home (Gilead #2)</td>
+            <td>Marilynne Robinson</td>
+            <td>Historical Fiction, Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780374299101</td>
+          </tr>
+          <tr>
+            <td>I love Dick</td>
+            <td>Chris Kraus</td>
+            <td>Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9781584350347</td>
+          </tr>
+          <tr>
+            <td>Less</td>
+            <td>Andrew Sean Greer</td>
+            <td>LGBTIQ, Queer Romance, Contemporary</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Love or Something Like It</td>
+            <td>Deidre Shaw</td>
+            <td>Contemporary, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781400067701</td>
+          </tr>
+          <tr>
+            <td>Motherhood</td>
+            <td>Sheila Heti</td>
+            <td>Literary Fiction, Contemporary</td>
+            <td></td>
+            <td></td>
+            <td>9780345810540</td>
+          </tr>
+          <tr>
+            <td>Mothering Sunday</td>
+            <td>Graham Swift</td>
+            <td>Historical Fiction</td>
+            <td></td>
+            <td>Death</td>
+            <td>9781471155239</td>
+          </tr>
+          <tr>
+            <td>Mr Penumbra's 24 Hour Bookshop</td>
+            <td>Robin Sloan</td>
+            <td>Fantasy, Mystery</td>
+            <td></td>
+            <td></td>
+            <td>9780374214913</td>
+          </tr>
+          <tr>
+            <td>My Sister the Serial Killer</td>
+            <td>Oyinkan Braithwaite</td>
+            <td>Crime, Thriller</td>
+            <td></td>
+            <td></td>
+            <td>9780385544238</td>
+          </tr>
+          <tr>
+            <td>Not married, Not Bothered</td>
+            <td>Carol Clewlow</td>
+            <td>Contemporary</td>
+            <td></td>
+            <td></td>
+            <td>9780007204014</td>
+          </tr>
+          <tr>
+            <td>Now You See Her</td>
+            <td>Whitney Otto</td>
+            <td>Contemporary</td>
+            <td></td>
+            <td></td>
+            <td>9780345378262</td>
+          </tr>
+          <tr>
+            <td>Olive</td>
+            <td>Emma Gannon</td>
+            <td>Contemporary</td>
+            <td>Whether to parent is a theme.</td>
+            <td></td>
+            <td>9780008382728</td>
+          </tr>
+          <tr>
+            <td>Poisoned</td>
+            <td>Jennifer Donnelly</td>
+            <td>Young Adult, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781338268492</td>
+          </tr>
+          <tr>
+            <td>Remarkable Creatures</td>
+            <td>Tracy Chevalier</td>
+            <td>Historical Fiction/td>
+              <td></td>
+              <td></td>
+              <td>9780007178377</td>
+          </tr>
+          <tr>
+            <td>Seal Rock Sound</td>
+            <td>Sue Fagalde Lick</td>
+            <td>Contemporary</td>
+            <td></td>
+            <td></td>
+            <td>9781733685245</td>
+          </tr>
+          <tr>
+            <td>Sourdough</td>
+            <td>Robin Sloan</td>
+            <td>Contemporary, Magical Realism, Fantasy</td>
+            <td></td>
+            <td></td>
+            <td>9780374203108</td>
+          </tr>
+          <tr>
+            <td>Tales of the City</td>
+            <td>Armistad Maupin</td>
+            <td>Queer, LGBTIQ, Humour</td>
+            <td></td>
+            <td></td>
+            <td>9780552998765</td>
+          </tr>
+          <tr>
+            <td>The Book of Longings</td>
+            <td>Sue Monk Kidd</td>
+            <td>Historical Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780525429760</td>
+          </tr>
+          <tr>
+            <td>The Bookshop</td>
+            <td>Penelope Fitzgerald</td>
+            <td>Historical Fiction</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>The Bullet That Missed</td>
+            <td>Richard Osman</td>
+            <td>Mystery, Crime, Humour</td>
+            <td></td>
+            <td></td>
+            <td>9780241512425</td>
+          </tr>
+          <tr>
+            <td>The Crossing Places</td>
+            <td>Elly Griffifths</td>
+            <td>Mystery, Crime, Thriller</td>
+            <td></td>
+            <td></td>
+            <td>9780547229898</td>
+          </tr>
+          <tr>
+            <td>The Boy, The Mole, The Fox and the Horse</td>
+            <td>Charlie Mackesy</td>
+            <td>Graphic Novel, Philosophy, Childrens</td>
+            <td></td>
+            <td></td>
+            <td>9781529105100</td>
+          </tr>
+          <tr>
+            <td>The Dragon Lady</td>
+            <td>Louisa Treger</td>
+            <td>Historical Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9781448217267</td>
+          </tr>
+          <tr>
+            <td>The Enchanted April</td>
+            <td>Elizabeth von Arnim</td>
+            <td>Historical Fiction, Romance</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>The Fair Botanists</td>
+            <td>Sara Sheridan</td>
+            <td>Historical Fiction, Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781529336214</td>
+          </tr>
+          <tr>
+            <td>The Goldfinch</td>
+            <td>Donna Tartt</td>
+            <td>Literary Fiction, Mystery</td>
+            <td></td>
+            <td></td>
+            <td>9780316055437</td>
+          </tr>
+          <tr>
+            <td>The Huntress</td>
+            <td>Kate Quinn</td>
+            <td>Historical Fiction, World War II</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>The Keeper of Lost Things</td>
+            <td>Ruth Hogan</td>
+            <td>Magical Realism, Fantasy, Contemporary</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>The Knitting Circle</td>
+            <td>Ann Hood</td>
+            <td>Contemporary</td>
+            <td></td>
+            <td></td>
+            <td>9780393330441</td>
+          </tr>
+          <tr>
+            <td>The Man Who Died Twice</td>
+            <td>Richard Osman</td>
+            <td>Crime, Mystery</td>
+            <td></td>
+            <td></td>
+            <td>9780241425428</td>
+          </tr>
+          <tr>
+            <td>The Midnight Library</td>
+            <td>Matt Haig</td>
+            <td>Contemporary, Magical Realism</td>
+            <td></td>
+            <td></td>
+            <td>9780525559481</td>
+          </tr>
+          <tr>
+            <td>The Odd Women</td>
+            <td>George Gissing</td>
+            <td>Historical Fiction, Victorian</td>
+            <td>About the lives of unmarried Victorian women.</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>The Overstory</td>
+            <td>Richard Powers</td>
+            <td>Contemporary, Literary Fiction, Environment</td>
+            <td></td>
+            <td></td>
+            <td>9780393356687</td>
+          </tr>
+          <tr>
+            <td>The Princess Saves Herself in This One</td>
+            <td>Amanda Lovelace</td>
+            <td>Poetry</td>
+            <td></td>
+            <td></td>
+            <td>9789524833479</td>
+          </tr>
+          <tr>
+            <td>The Rose Code</td>
+            <td>Kate Quinn</td>
+            <td>Historical Fiction, World War II</td>
+            <td></td>
+            <td></td>
+            <td>9780062943477</td>
+          </tr>
+          <tr>
+            <td>The Shadows Between Us</td>
+            <td>Tricia Levenseller</td>
+            <td>Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781721357291</td>
+          </tr>
+          <tr>
+            <td>The Signature of All Things</td>
+            <td>Elizabeth Gilbert</td>
+            <td>Historical Fiction, Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9781482927757</td>
+          </tr>
+          <tr>
+            <td>The Snow Child</td>
+            <td>Eowyn Ivey</td>
+            <td>Historical Fiction, Magical Realism</td>
+            <td></td>
+            <td></td>
+            <td>9780755380534</td>
+          </tr>
+          <tr>
+            <td>The Starless Sea</td>
+            <td>Erin Morgenstern</td>
+            <td>Fantasy</td>
+            <td></td>
+            <td></td>
+            <td>9780385541213</td>
+          </tr>
+          <tr>
+            <td>The Thursday Murder Club</td>
+            <td>Richard Osman</td>
+            <td>Crime, Mystery</td>
+            <td></td>
+            <td></td>
+            <td>9781984880970</td>
+          </tr>
+          <tr>
+            <td>The Weekend</td>
+            <td>Charlotte Wood</td>
+            <td>Contemporary, Literary Fiction, Australian</td>
+            <td></td>
+            <td></td>
+            <td>9781474612975</td>
+          </tr>
+          <tr>
+            <td>The Whalebone Theatre</td>
+            <td>Joanna Quinn</td>
+            <td>Historical Fiction, World War II</td>
+            <td></td>
+            <td></td>
+            <td>9780593321713</td>
+          </tr>
+          <tr>
+            <td>A Year of Marvellous Ways</td>
+            <td>Sarah Winman</td>
+            <td>Historical Fiction, Literary Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9781472235251</td>
+          </tr>
+          <tr>
+            <td>Up beaver Creek</td>
+            <td>Sue Fagalde Lick</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>9780983389491</td>
+          </tr>
+          <tr>
+            <td>What's Not Said</td>
+            <td>Valerie Taylor</td>
+            <td>Romance</td>
+            <td></td>
+            <td></td>
+            <td>9781631527456</td>
+          </tr>
+          <tr>
+            <td>Where the Crawdads Sing</td>
+            <td>Delia Owen</td>
+            <td>Mystery, Romance, Historical Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9780735219113</td>
+          </tr>
+          <tr>
+            <td>Widowland</td>
+            <td>CJ Carey</td>
+            <td>Dystopian Fiction, Science Fiction</td>
+            <td></td>
+            <td></td>
+            <td>9781529412000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+    <footer class="bg-near-black text-white py-5">
+        <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Book Lists</h5>
+            <p>
+              <a href="top10.html" class="text-white">
+                Top 10
+              </a>
+            </p>
+            <p>
+              <a href="self_help.html" class="text-white">
+                Self Help
+              </a>
+            </p>
+            <p>
+              <a href="biography.html" class="text-white">
+                Biography and Memoir
+              </a>
+            </p>
+            <p>
+              <a href="fiction.html" class="text-white">
+                Fiction
+              </a>
+            </p>
+            <p>
+              <a href="fiction_series.html" class="text-white">
+                Fiction Series
+              </a>
+            </p>
+            <p>
+              <a href="non_fiction.html" class="text-white">
+                Other Non-fiction
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Get Involved</h5>
+            <p>
+              <a href="suggest_a_book.html" class="text-white">
+                Contribute to book lists
+              </a>
+            </p>
+            <p>
+              <a href="ask_your_library.html" class="text-white">
+                Ask your library to buy a book
+              </a>
+            </p>
+            <p>
+              <a href="libraries_in_wcw.html" class="text-white">
+                Ask your library to celebrate World Childless Week
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">About</h5>
+            <p>
+              <a href="index.html#faqs" class="text-white">
+                FAQs
+              </a>
+            </p>
+            <p>
+              <a href="for_librarians.html" class="text-white">
+                Information for librarians
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-3">
+            <h5 class="text-light-beige">Contact</h5>
+            <p>
+              I'd love to hear from you! So please,
+              <a href="mailto:keira@nokidsbooks.com" class="text-white">
+                send me an email.
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row border-top mt-4">
+          <p>© 2023 Keira Paterson</p>
+        </div>
+      </div>
+
+    </footer>
+
+    <script>
+      $(document).ready(function() {
+        $('#bookTable').DataTable({
+          "order": [[ 0, 'asc' ]],
+          "scrollX": true,
+          lengthMenu: [
+            [20, 50, -1],
+            [20, 50, 'All']
+          ],
+        });
+      });
+    </script>
+  </body>
